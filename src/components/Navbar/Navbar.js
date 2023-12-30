@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           {/* <img src={logo} alt="logo" /> */}
-          <h4>Siddhant Sharma</h4>
+          <h2>Siddhant Sharma</h2>
           <button
             className="nav-toggle"
             onClick={() => setShowLinks(!showLinks)}

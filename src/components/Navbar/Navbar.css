@@ -38,6 +38,44 @@
   --max-width: 1170px;
   --fixed-width: 620px;
 }
+
+@font-face {
+  font-family: sfBold;
+  src: url(../../assets/fonts/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+  font-family: sfRegular;
+  src: url(../../assets/fonts/SF-Pro-Text-Regular.otf);
+}
+@font-face {
+  font-family: sfMedium;
+  src: url(../../assets/fonts/SF-Pro-Text-Medium.otf);
+}
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(ArianaVioleta-dz2K.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArianaVioleta-dz2K.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArianaVioleta-dz2K.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArianaVioleta-dz2K.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArianaVioleta-dz2K.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArianaVioleta-dz2K.ttf);
+} */
+
 ::after,
 ::before {
   margin: 0;
@@ -66,6 +104,7 @@ h4 {
   text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+  font-family: sfMedium;
 }
 h1 {
   font-size: 3rem;
@@ -77,6 +116,7 @@ h3 {
   font-size: 1.25rem;
 }
 h4 {
+  font-family: sfMedium;
   font-size: 0.875rem;
 }
 p {
@@ -120,16 +160,10 @@ p {
     width: 95vw;
   }
 }
-
-/*
-  =============== 
-  Navbar
-  ===============
-  */
-nav {
+/* nav { */
   /* background: var(--clr-white); */
   /* box-shadow: var(--light-shadow); */
-}
+/* } */
 .nav-header {
   display: flex;
   align-items: center;

@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
-  background-image: url("../../assets/hero.jpg");
+  background-image: url("../../assets/images/hero.jpg");
 
   @media screen and (max-width: 767px){
     /* background-image: url("../../assets/hero-min.jpg"); */
