@@ -45,7 +45,11 @@ h1 {
   font-size: 3rem;
 }
 h2 {
+  margin-top: 1.5rem;
   font-size: 2rem;
+}
+h2:hover{
+  cursor: pointer;
 }
 h3 {
   font-size: 1.25rem;
@@ -56,7 +60,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: #fff;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -81,48 +85,34 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
-
-/* section */
-.section {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: var(--max-width);
-}
-
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95vw;
-  }
-}
-/* nav { */
-  /* background: var(--clr-white); */
-  /* box-shadow: var(--light-shadow); */
-/* } */
 .nav-header {
+  /* margin-top: .1rem; */
+  margin-left: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: #fff;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
+  margin-right: 2rem;
+  margin-top: 1.3rem;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
+  color: #fff;
   transform: rotate(90deg);
 }
 .logo {
   height: 40px;
 }
 .links a {
-  color: var(--clr-grey-3);
-  font-size: 1rem;
+  color: #fff;
+  font-family: sfRegular;
+  font-size: 1.2rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -130,11 +120,12 @@ p {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: #fff;
+  color: #fff;
   padding-left: 1.5rem;
 }
 .social-icons {
+  
   display: none;
 }
 .links-container {
@@ -148,7 +139,7 @@ p {
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -175,14 +166,15 @@ p {
     background: transparent;
   }
   .social-icons {
+    font-size: 1.5rem;
     display: flex;
   }
   .social-icons a {
-    margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    margin: 0 1rem;
+    color: #fff;
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: #fff;
   }
 }
