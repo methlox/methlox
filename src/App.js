@@ -1,13 +1,15 @@
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/hero'
+import Home from "./pages/home";
+import Sketches from "./pages/sketches";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Hero />
-    </div>
+    <Router>
+      <Routes>
+          <Route path="/" element={<Home />} exact />
+          <Route path='/sketches' element={<Sketches />} exact />
+        </Routes>
+    </Router>
   );
 }
 
