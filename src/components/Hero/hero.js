@@ -3,8 +3,8 @@ import './hero.css'
 
 function hero() {
   return (
-    <div className='body'>
-        
+    <div>
+        {/* hi */}
     </div>
   )
 }

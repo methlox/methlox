@@ -22,7 +22,7 @@ import './sketch.css'
 
 function sketch() {
   return (
-    <>
+    <div className='bod'>
         <Navbar />
         <div className='container'>
             <img className='i1' src={grayjoji} alt='grayjoji'/>
@@ -44,7 +44,7 @@ function sketch() {
             <img className='i12' src={sacred} alt='sacred' />
             <img className='i18' src={st} alt='st' />
         </div>
-    </>
+    </div>
   )
 }
 
