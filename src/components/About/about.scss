@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 h1 {
   font-size: 35px;
 }
@@ -8,14 +12,15 @@ i {
 
 .container {
   width: 100%;
-  margin: 730px auto;
+  // margin: 730px auto;
   // max-width: 960px;
-  background-color: #000;
+  background-color: rgb(3, 3, 3);
   background-size: cover;
 }
 
 .tech {
   margin: 10px;
+  // background-color: rgb(22, 22, 22);
   p {
     margin: 0em 3em;
   }
