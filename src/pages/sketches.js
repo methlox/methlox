@@ -1,12 +1,12 @@
-import React from 'react'
-import Sketch from '../components/Sketch/sketch.js'
+import React from "react";
+import Sketch from "../components/sketch/sketch";
 
 function sketches() {
   return (
     <>
-        <Sketch />
+      <Sketch />
     </>
-  )
+  );
 }
 
-export default sketches
+export default sketches;
