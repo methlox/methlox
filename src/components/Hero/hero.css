@@ -8,11 +8,19 @@ body {
   background-image: url("../../assets/images/hero.jpg") !important;
 }
 
-.container {
+.icon {
   position: absolute;
   bottom: 70px; /* Adjust the distance from the bottom as needed */
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
   width: 40px;
+}
+
+.container {
+  margin-top: 730px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
