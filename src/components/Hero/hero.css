@@ -6,9 +6,13 @@ body {
   background-size: cover;
   background-color: #464646;
   background-image: url("../../assets/images/hero.jpg") !important;
+}
 
-  @media screen and (max-width: 767px){
-    /* background-image: url("../../assets/hero-min.jpg"); */
-  }
-
+.container {
+  position: absolute;
+  bottom: 70px; /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  width: 40px;
 }

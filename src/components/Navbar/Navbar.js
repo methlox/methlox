@@ -29,7 +29,7 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <a href={url} target="_blank">{text}</a>
                 </li>
               );
             })}
@@ -40,7 +40,7 @@ const Navbar = () => {
             const { id, url, icon } = link;
             return (
               <li key={id}>
-                <a href={url}>{icon}</a>
+                <a href={url} target="_blank">{icon}</a>
               </li>
             );
           })}
