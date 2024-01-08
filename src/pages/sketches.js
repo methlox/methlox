@@ -1,5 +1,5 @@
 import React from 'react'
-import Sketch from '../components/sketch/sketch'
+import Sketch from '../components/Sketch/sketch'
 
 function sketches() {
   return (

@@ -8,10 +8,6 @@ body {
   background-image: url("../../assets/images/hero.jpg") !important;
 }
 
-h1 {
-  font-size: 35px;
-}
-
 .icon {
   position: absolute;
   bottom: 70px;
@@ -19,37 +15,4 @@ h1 {
   transform: translateX(-50%);
   cursor: pointer;
   width: 40px;
-}
-
-.container {
-  width: 100%; 
-  margin: 730px auto;
-  // max-width: 960px;
-  background-color: #000;
-  background-size: cover;
-}
-
-.tech {
-  margin: 10px;
-}
-
-.user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  p {
-    font-size: 16px;
-  }
-  @media only screen and (min-width: 550px) {
-    flex-wrap: nowrap;
-    flex-direction: row;
-    font-size: 75px;
-  }
-}
-
-.user-details {
-  text-align: center;
-  margin: 5px auto;
 }

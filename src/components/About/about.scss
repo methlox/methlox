@@ -1,0 +1,58 @@
+h1 {
+  font-size: 35px;
+}
+
+i {
+  margin: 6px;
+}
+
+.container {
+  width: 100%;
+  margin: 730px auto;
+  // max-width: 960px;
+  background-color: #000;
+  background-size: cover;
+}
+
+.tech {
+  margin: 10px;
+  p {
+    margin: 0em 3em;
+  }
+  @media only screen and (min-width: 550px) {
+    p {
+      margin: 3em;
+    }
+  }
+}
+
+.user {
+  text-align: center;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  p {
+    font-size: 16px;
+  }
+  @media only screen and (min-width: 550px) {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 75px;
+  }
+}
+
+.user-details {
+  text-align: center;
+  margin: 5px auto;
+  p {
+    margin: 2em 1em 0em;
+  }
+  @media only screen and (min-width: 550px) {
+    p {
+      margin: 2em 15em;
+    }
+  }
+}
+
+
