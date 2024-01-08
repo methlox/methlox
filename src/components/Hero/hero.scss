@@ -8,9 +8,13 @@ body {
   background-image: url("../../assets/images/hero.jpg") !important;
 }
 
+h1 {
+  font-size: 35px;
+}
+
 .icon {
   position: absolute;
-  bottom: 70px; /* Adjust the distance from the bottom as needed */
+  bottom: 70px;
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
@@ -18,16 +22,11 @@ body {
 }
 
 .container {
-  margin-top: 730px;
-}
-
-#about {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
-  // @media only screen and (min-width: $cut) {
-  //   width: 80%;
-  // }
+  width: 100%; 
+  margin: 730px auto;
+  // max-width: 960px;
+  background-color: #000;
+  background-size: cover;
 }
 
 .tech {
@@ -38,16 +37,16 @@ body {
   text-align: center;
   font-size: 60px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-between;
   p {
     font-size: 16px;
   }
-  // @media only screen and (min-width: $cut) {
-  //   flex-wrap: nowrap;
-  //   font-size: 75px;
-  // }
+  @media only screen and (min-width: 550px) {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-size: 75px;
+  }
 }
 
 .user-details {

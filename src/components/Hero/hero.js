@@ -5,7 +5,6 @@ import chevdown from "../../assets/images/chevdown.svg";
 function hero() {
   return (
     <div>
-      {/* <link rel="stylesheet" href="devicon.min.css"></link> */}
       <img src={chevdown} className="icon"></img>
       <div className="container">
         <div class="user-details">
@@ -27,7 +26,7 @@ function hero() {
             <h2>Code</h2>
             <i class="devicon-javascript-plain colored"></i>
             <i class="devicon-react-original-wordmark colored"></i>
-            <i class="devicon-nodejs-plain-wordmark"></i>
+            <i class="devicon-nodejs-plain-wordmark colored"></i>
             <p>
               Mumblecore hexagon kombucha, pitchfork four loko raclette
               intelligentsia master cleanse. Vinyl XOXO lumbersexual
@@ -35,9 +34,9 @@ function hero() {
           </div>
           <div class="tech">
             <h2>Tools</h2>
-            <i class="devicon-git-plain"></i>
+            <i class="devicon-git-plain colored"></i>
             <i class="devicon-gulp-plain colored"></i>
-            <i class="devicon-atom-original-wordmark"></i>
+            <i class="devicon-atom-original colored"></i>
             <p>
               Mumblecore hexagon kombucha, pitchfork four loko raclette
               intelligentsia master cleanse. Vinyl XOXO lumbersexual
