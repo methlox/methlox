@@ -46,10 +46,13 @@ i {
   text-align: center;
   margin: 5px auto;
   p {
+    font-size: 15px;
+    text-align: justify;
     margin: 2em 1em 0em;
   }
   @media only screen and (min-width: 550px) {
     p {
+      font-size: 16px;
       margin: 2em 15em;
     }
   }
